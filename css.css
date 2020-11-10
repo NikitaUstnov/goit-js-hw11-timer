@@ -1,5 +1,6 @@
 body {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 
@@ -15,6 +16,19 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.countdown-to-date {
+  margin-bottom: 20px;
+}
+.countdown-label {
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.countdown-input {
+  width: 130px;
 }
 
 .timer {
